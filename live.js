@@ -19,7 +19,7 @@ io.on("connection",(socket)=>{
     console.log("User Connected");
 });
 
-
+// Starting the server
 app.get("/",(req,res)=>{
 res.render("index");
 console.log("Server running on port 3003");
