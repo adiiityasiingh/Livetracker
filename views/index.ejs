@@ -43,7 +43,7 @@
                 console.log(latitude,longitude)
             },
                 (error) => {
-                    console.error(error);
+                    console.error("Unable to find location",error);
                 },
                 {
                     enableHighAccuracy: true,
@@ -73,8 +73,6 @@
                 delete markers[id];
                 console.log("User Disconnected")
             }
-
-
         })
     </script>
 </body>
