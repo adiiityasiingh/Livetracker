@@ -11,7 +11,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/livetracker', {
+
+mongoose.connect('mongodb+srv://adiiityasiingh:qB4L6O4FsNlFgyzZ@livetracker.enyhr.mongodb.net/?retryWrites=true&w=majority&appName=Livetracker', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
